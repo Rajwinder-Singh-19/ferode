@@ -12,7 +12,7 @@ ferode is capable of solving ODEs of arbitrary order, using the validated implem
 > Kreyszig, E. (2011). *Advanced Engineering Mathematics* (10th ed.). Hoboken, NJ: John Wiley & Sons.  
 > ISBN: 978-0470458365
 
-All implemented using purely in Rust.
+All implemented purely in Rust.
 
 ferode allows the use of adaptive stepping based on the error tolerances provided by the user. Adaptive stepping can be bypassed by setting the min and max step size to the same value.
 
