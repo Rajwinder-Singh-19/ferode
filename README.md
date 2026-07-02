@@ -6,7 +6,8 @@ ferode is capable of solving ODEs of arbitrary order, using the validated implem
   1. Euler's 1st Order Method
   2. Heun's 2nd Order Method
   3. Runge-Kutta 4th Order Method
-  4. Runge-Kutta-Fehlberg 5th Order Method
+  4. Runge-Kutta-Fehlberg 4th Order Method
+  5. Runge-Kutta-Fehlberg 5th Order Method
 
 > **Source**  
 > Kreyszig, E. (2011). *Advanced Engineering Mathematics* (10th ed.). Hoboken, NJ: John Wiley & Sons.  
