@@ -29,7 +29,8 @@ Here are the results of undamped and damped harmonic oscillations ODE, solved wi
 > Please go through [equation.rs](/src/equation.rs), 
 
 ## Future Vision
-  1. Currently ferode can solve isolated ODEs, the next step is to support the solution of system of coupled ODEs
-  2. Currenly the solution can only be saved to a .csv file per ODE, and visualized using external frameworks (Excel, Python etc...), next step is to develop a custom visualizer for ODE solution for instant user feedback and convenience.
-  3. Currenly the user has to select the solver method based on their own judgement of the physical characteristics of the problem, next step is to automatically select the appropriate solver based on the characteristics of the ODE (e.g. stiffness, numerical energy drift etc.) 
+  1. ferode can solve isolated ODEs, the next step is to support the solution of system of coupled ODEs
+  2. The solution can only be saved to a .csv file per ODE, and visualized using external frameworks (Excel, Python etc...), next step is to develop a custom visualizer for ODE solution for instant user feedback and convenience.
+  3. The user has to select the solver method based on their own judgement of the physical characteristics of the problem, next step is to automatically select the appropriate solver based on the characteristics of the ODE (e.g. stiffness, numerical energy drift etc.)
+  4. Only explicit stepping methods have been implemented, which means ferode is not yet ready for solving stiff ODEs. Naturally, the next step is to implement implicit schemes which allow solution of stiff ODEs.
    
