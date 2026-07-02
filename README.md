@@ -8,7 +8,7 @@ ferode is capable of solving ODEs of arbitrary order, using the validated implem
   3. Runge-Kutta 4th Order Method
   4. Runge-Kutta-Fehlberg 5th Order Method
 
-All implemented using Rust!!
+All implemented using purely in Rust.
 
 The implementations allow the use of adaptive stepping based on the error tolerances provided by the user. Adaptive stepping can be bypassed by setting the min and max step size to be equal.
 
