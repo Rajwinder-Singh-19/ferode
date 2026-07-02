@@ -10,7 +10,7 @@ ferode is capable of solving ODEs of arbitrary order, using the validated implem
 
 All implemented using Rust!!
 
-The implementations allow the use of adaptive stepping based on the error tolerances provided by the user.
+The implementations allow the use of adaptive stepping based on the error tolerances provided by the user. Adaptive stepping can be bypassed by setting the min and max step size to be equal.
 
 Here are the results of undamped and damped harmonic oscillations ODE, solved with ferode (using RK4 and RK5 implementations)
 
