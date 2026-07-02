@@ -9,7 +9,7 @@ use equation::{ODE, ODESolverType};
 
 fn harmonic_oscillation_undamped_simulation() {
     fn undamped_oscillation_equation(t: f64, y: &[f64]) -> f64 {
-        -4.0*y[0]
+        -y[0]
     }
     let eqn =
         ODE::new(2, undamped_oscillation_equation, &[0.0, 1.0]).expect("Failed to initialize ODE");
