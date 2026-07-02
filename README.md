@@ -28,7 +28,7 @@ Here are the results of undamped and damped harmonic oscillations ODE, solved wi
 ## To see the implementation details of ferode.
 > Please go through [equation.rs](/src/equation.rs),
 
-## How use ferode in your project.
+## How to use ferode in your project.
 > Just download [equation.rs](/src/equation.rs) and copy into your project source. Everything should compile with cargo, no need for external dependencies.
 
 ## Future Vision
