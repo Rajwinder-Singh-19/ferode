@@ -26,7 +26,10 @@ Here are the results of undamped and damped harmonic oscillations ODE, solved wi
 ## To see an example of how ferode can be used.
 > Please go through [main.rs](/src/main.rs),
 ## To see the implementation details of ferode.
-> Please go through [equation.rs](/src/equation.rs), 
+> Please go through [equation.rs](/src/equation.rs),
+
+## How use ferode in your project.
+> Just download [equation.rs](/src/equation.rs) and copy into your project source. Everything should compile with cargo, no need for external dependencies.
 
 ## Future Vision
   1. ferode can solve isolated ODEs, the next step is to support the solution of system of coupled ODEs
