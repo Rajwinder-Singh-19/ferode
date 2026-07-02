@@ -30,5 +30,5 @@ Here are the results of undamped and damped harmonic oscillations ODE, solved wi
 ## Future Vision
   1. Currently ferode can only solve a single ODE at a time, the next step is to support the solution of system of ODEs
   2. Currenly the solution can only be saved to a .csv file per ODE, and visualized using external frameworks (Excel, Python etc...), next step is to develop a custom visualizer for ODE solution for instant user feedback and convenience.
-  3. Currenly the user has to select the solver method based on their own judgement of the physical characteristics of the problem, next step is to automatically select the appropriate solver based on the characteristics of the ODE (e.ge. stiffness...) 
+  3. Currenly the user has to select the solver method based on their own judgement of the physical characteristics of the problem, next step is to automatically select the appropriate solver based on the characteristics of the ODE (e.g. stiffness, numerical energy drift etc.) 
    
