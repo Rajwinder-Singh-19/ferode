@@ -19,7 +19,7 @@ ferode allows the use of adaptive stepping based on the error tolerances provide
 
 Here are the results of undamped and damped harmonic oscillations ODE, solved with ferode (using RK4 and RK5 implementations)
 
-| ![Harmonic Results](https://github.com/user-attachments/assets/23a6698b-87fa-488f-80b5-47cd137c3f64) |
+| ![Harmonic Results](https://github.com/user-attachments/assets/7d4a7adf-89f5-4346-bf3c-883a83e39c77) |
 |:--:|
 |**Solution For Damped and Undamped Harmonic Oscillator ODEs, Generated Using ferode's RKF4 And RKF5 Implementations [(main.rs)](/src/main.rs)**|
 
