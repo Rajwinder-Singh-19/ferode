@@ -8,9 +8,13 @@ ferode is capable of solving ODEs of arbitrary order, using the validated implem
   3. Runge-Kutta 4th Order Method
   4. Runge-Kutta-Fehlberg 5th Order Method
 
+> **Source**  
+> Kreyszig, E. (2011). *Advanced Engineering Mathematics* (10th ed.). Hoboken, NJ: John Wiley & Sons.  
+> ISBN: 978-0470458365
+
 All implemented using purely in Rust.
 
-The implementations allow the use of adaptive stepping based on the error tolerances provided by the user. Adaptive stepping can be bypassed by setting the min and max step size to be equal.
+ferode allows the use of adaptive stepping based on the error tolerances provided by the user. Adaptive stepping can be bypassed by setting the min and max step size to the same value.
 
 Here are the results of undamped and damped harmonic oscillations ODE, solved with ferode (using RK4 and RK5 implementations)
 
@@ -18,6 +22,8 @@ Here are the results of undamped and damped harmonic oscillations ODE, solved wi
 
 ## Please go through src/main.rs if you want to see an example of how ferode can be used.
 ## If you are interested in the implementation details, please go through src/equation.rs.
+
+
 
 ## Future Vision
   1. Currently ferode can only solve a single ODE at a time, the next step is to support the solution of system of ODEs
