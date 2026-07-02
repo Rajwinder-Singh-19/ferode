@@ -3,11 +3,11 @@
 
 ferode is capable of solving ODEs of arbitrary order, using the validated implementations of:
 
-  1. Euler's 1st Order Method
-  2. Heun's 2nd Order Method
-  3. Runge-Kutta 4th Order Method
-  4. Runge-Kutta-Fehlberg 4th Order Method
-  5. Runge-Kutta-Fehlberg 5th Order Method
+  1. Euler's Method (1st Order Accuracy)
+  2. Heun's Method (2nd Order Accuracy)
+  3. Runge-Kutta Method (4th Order Accuracy)
+  4. Runge-Kutta-Fehlberg Method (4th Order Accuracy)
+  5. Runge-Kutta-Fehlberg Method (5th Order Accuracy)
 
 > **Source**  
 > Kreyszig, E. (2011). *Advanced Engineering Mathematics* (10th ed.). Hoboken, NJ: John Wiley & Sons.  
