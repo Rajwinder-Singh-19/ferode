@@ -16,6 +16,9 @@ Here are the results of undamped and damped harmonic oscillations ODE, solved wi
 
 <img width="1920" height="959" alt="Harmonic Oscillator Results" src="https://github.com/user-attachments/assets/23a6698b-87fa-488f-80b5-47cd137c3f64" />
 
+## Please go through src/main.rs if you want to see an example of how ferode can be used.
+## If you are interested in the implementation details, please go through src/equation.rs.
+
 ## Future Vision
   1. Currently ferode can only solve a single ODE at a time, the next step is to support the solution of system of ODEs
   2. Currenly the solution can only be saved to a .csv file per ODE, and visualized using external frameworks (Excel, Python etc...), next step is to develop a custom visualizer for ODE solution for instant user feedback and convenience.
