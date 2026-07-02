@@ -1,5 +1,5 @@
 # ferode
-## Ordinary Differential Equation (ODE) Framework, written in Rust
+## Ordinary Differential Equation (ODE) Framework, Written In Pure Rust
 
 ferode is capable of solving ODEs of arbitrary order, using the validated implementations of:
 
@@ -13,20 +13,20 @@ ferode is capable of solving ODEs of arbitrary order, using the validated implem
 > Kreyszig, E. (2011). *Advanced Engineering Mathematics* (10th ed.). Hoboken, NJ: John Wiley & Sons.  
 > ISBN: 978-0470458365
 
-All implemented purely in Rust.
+All implemented in Pure Rust.
 
 ferode allows the use of adaptive stepping based on the error tolerances provided by the user. Adaptive stepping can be bypassed by setting the min and max step size to the same value.
 
 Here are the results of undamped and damped harmonic oscillations ODE, solved with ferode (using RK4 and RK5 implementations)
 
-<img width="1920" height="959" alt="Harmonic Oscillator Results" src="https://github.com/user-attachments/assets/23a6698b-87fa-488f-80b5-47cd137c3f64" />
+| ![Harmonic Results](https://github.com/user-attachments/assets/23a6698b-87fa-488f-80b5-47cd137c3f64) |
+|:--:|
+|**Solution For Damped and Undamped Harmonic Oscillator ODEs, Generated Using ferode's RKF4 And RKF5 Implementations [(main.rs)](/src/main.rs)**|
 
 ## To see an example of how ferode can be used.
 > Please go through [main.rs](/src/main.rs),
 ## To see the implementation details of ferode.
 > Please go through [equation.rs](/src/equation.rs), 
-
-
 
 ## Future Vision
   1. Currently ferode can only solve a single ODE at a time, the next step is to support the solution of system of ODEs
