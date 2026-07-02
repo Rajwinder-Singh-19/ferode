@@ -20,8 +20,10 @@ Here are the results of undamped and damped harmonic oscillations ODE, solved wi
 
 <img width="1920" height="959" alt="Harmonic Oscillator Results" src="https://github.com/user-attachments/assets/23a6698b-87fa-488f-80b5-47cd137c3f64" />
 
-## Please go through src/main.rs if you want to see an example of how ferode can be used.
-## If you are interested in the implementation details, please go through src/equation.rs.
+## To see an example of how ferode can be used.
+> Please go through [main.rs](/src/main.rs),
+## To see the implementation details of ferode.
+> Please go through [equation.rs](/src/equation.rs), 
 
 
 
